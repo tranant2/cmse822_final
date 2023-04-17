@@ -69,7 +69,7 @@ int main()
   Quad root(0.0, 0.0, 8.0);
 
   for (int i=0; i<ARRAY_SIZE; i++) {
-    printf("inserting %i th body at: %f, %f",i, bodies[i].x, bodies[i].y);
+    printf("inserting %i th body at: %f, %f \n",i, bodies[i].x, bodies[i].y);
     root.insert(&bodies[i]);
   }
 

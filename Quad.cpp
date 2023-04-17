@@ -103,4 +103,5 @@ void Quad::insert(Body* body) {
         cy = (cy * totalMass + body->y * body->mass) / (totalMass + body->mass);
         totalMass += body->mass;
     }
+    printf("cx:%f, cy:%f, total mass: %f \n", cx,cy,totalMass);
 }
